@@ -1159,7 +1159,7 @@ mr = (function (mr, $, window, document){
                         longitude     = latlong ? 1 * latlong.substr(latlong.indexOf(",") + 1) : false,
                         geocoder      = new google.maps.Geocoder(),
                         address       = typeof mapInstance.attr('data-address') !== typeof undefined ? mapInstance.attr('data-address').split(';'): [""],
-                        markerImage   = typeof mapInstance.attr('data-marker-image') !== typeof undefined ? mapInstance.attr('data-marker-image'): 'http://127.0.0.1:4000/img/mapmarker.png',
+                        markerImage   = typeof mapInstance.attr('data-marker-image') !== typeof undefined ? mapInstance.attr('data-marker-image'): 'http://fabro.co/img/mapmarker.png',
                         markerTitle   = "We Are Here",
                         isDraggable   = jQuery(document).width() > 766 ? true : false,
                         map, marker,
